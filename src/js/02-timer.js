@@ -25,7 +25,6 @@ function updateTimer() {
   if (timeLeft <= 0) {
     clearInterval(timer);
     Notiflix.Notify.success('Countdown is over!');
-    startBtn.disabled = false;
     return;
   }
 
